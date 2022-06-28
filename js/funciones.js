@@ -4,7 +4,6 @@ window.addEventListener('scroll', function()  {
     
       if(element.getBoundingClientRect().top < screenSize) {
         element.classList.add('contacto-init');
-      } else {
-        element.classList.remove('contacto-init');
-      }
+      } 
   });
+
